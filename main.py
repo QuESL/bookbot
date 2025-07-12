@@ -18,11 +18,11 @@ def main():
     #     print(f"'{char}': {count}")
 
     print(f"""
-        ============ BOOKBOT ============
-        Analyzing book found at {book_text}...
-        ----------- Word Count ----------
-        Found {word_count} total words
-        --------- Character Count -------
+============ BOOKBOT ============
+Analyzing book found at books/frankenstein.txt...
+----------- Word Count ----------
+Found {word_count} total words
+--------- Character Count -------
     """)
 
     sorted_list_of_dict = get_sorted_list_of_dict(character_count)
